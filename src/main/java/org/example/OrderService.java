@@ -11,4 +11,6 @@ public interface OrderService {
     void update();
 
     void delete();
+
+    String readOnlyOne();
 }
