@@ -13,4 +13,6 @@ public interface OrderService {
     void delete();
 
     void deleteAll();
+
+    String readOnlyOne();
 }
